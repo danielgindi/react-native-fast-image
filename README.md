@@ -17,17 +17,22 @@ Performant React Native image component.
 
 </div>
 
+## Fork
+
+This is a fork of DylanVann's `react-native-fast-image2`, with defaultSource support.  
+When this will finally be merged, the npm package will be deprecated.  
+
 <p align="center" >
   <kbd>
     <img
-      src="https://github.com/DylanVann/react-native-fast-image/blob/main/docs/assets/scroll.gif?raw=true"
+      src="https://github.com/DylanVann/react-native-fast-image2/blob/main/docs/assets/scroll.gif?raw=true"
       title="Scroll Demo"
       float="left"
     >
   </kbd>
   <kbd>
     <img
-      src="https://github.com/DylanVann/react-native-fast-image/blob/main/docs/assets/priority.gif?raw=true"
+      src="https://github.com/DylanVann/react-native-fast-image2/blob/main/docs/assets/priority.gif?raw=true"
       title="Priority Demo"
       float="left"
     >
@@ -65,15 +70,15 @@ and
 
 ## Usage
 
-**Note: You must be using React Native 0.60.0 or higher to use the most recent version of `react-native-fast-image`.**
+**Note: You must be using React Native 0.60.0 or higher to use the most recent version of `react-native-fast-image2`.**
 
 ```bash
-yarn add react-native-fast-image
+yarn add react-native-fast-image2
 cd ios && pod install
 ```
 
 ```jsx
-import FastImage from 'react-native-fast-image'
+import FastImage from 'react-native-fast-image2'
 
 const YourImage = () => (
     <FastImage
